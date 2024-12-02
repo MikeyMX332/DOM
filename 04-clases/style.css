@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin:0;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.ingredientes {
+  margin: 0 auto;
+  width: 300px;
+  border: 2px solid green;
+}
+
+.lista{
+  list-style: none;
+}
+
+.botana {
+  padding: 8px 24px
+}
+
+.bg-lightblue {
+  background-color: lightblue;
+}
+
+.bg-orangered {
+  background-color: orangered;
+}
