@@ -103,3 +103,59 @@ Asignamos el valor al elemento seleccionado incluyendo las etiquetas html.
 
 titulo.innerHTML= "Amigos <span>personajes</span>!"
 lista.innerHTML="<li>Lara Croft</li> <li>Doom Slayer</li> <li>Goblin Slayer</li> <li>Kratos</li>"
+
+/* 
+
+getAttribute()
+
+Devuelve el valor del tributo elemento.
+
+elemento.getAttribute(atributo)
+
+
+*/
+
+const enlace = document.getElementsByTagName("a");
+
+console.log(enlace);
+
+console.log(enlace[0].getAttribute("href"));
+
+/* 
+
+removeAttribute
+
+Elimina el valor del atributo de un elemento
+
+elemento.removeAttribute(atributo)
+
+*/
+
+enlace[0].removeAttribute("href");
+
+console.log(enlace[0].getAttribute("href"));
+
+/* 
+
+setAttribute()
+
+Asigna n atributo y un valor a un elemento.
+
+elemento.setAttribute(atributo, valor)
+
+-obrescribir un atributo ya declarado.
+-Crear un nuevo atributo y su valor.
+
+*/
+
+enlace[0].setAttribute("href", "https://www.youtube.com/");
+
+console.log(enlace[0].getAttribute("href"));
+
+/* antes */
+
+enlace[0].setAttribute("target", "_blank");
+
+/* Despues */
+
+console.log(enlace[0].getAttribute("target"));
