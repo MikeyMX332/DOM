@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: cyan;
+  color: black
+  padding: 24px;
+  
+}
+
+.subtitle {
+  font-size: 32px;
+  margin-bottom: 24px;
+color: brown;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+  padding: 12px 8px;
+  color: aliceblue;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  cursor:pointer;
+}
+
+.bg-one {
+  padding: 12px 8px;
+  background-color: chartreuse;
+}
+
+.bg-two {
+  padding: 12px 8px;
+  background-color: coral;
+}
+
+.bg-tree {
+  padding: 12px 8px;
+  background-color: deeppink;
+}
