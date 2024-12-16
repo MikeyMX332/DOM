@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  color: darkblue;
+  background-color: aquamarine;
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  color: darkblue;
+  cursor: pointer;
+  background-color: orangered;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 0px 0px black;
+  transition: all .300s ease ;
+}
+
+button:hover {
+  background-color: darkgreen;
+  box-shadow: 8px 8px 0 0 black;
+}

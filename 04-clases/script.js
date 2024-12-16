@@ -38,7 +38,7 @@ Botanas[1].classList.add("bg-Lightblue")
 
 /* 
 
-Verificar si existe yba clase en un elemento con el método containss()
+Verificar si existe una clase en un elemento con el método containss()
 
 elemento.classList.contains(clases)
 
