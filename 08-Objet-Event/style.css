@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    color: darkblue;
+    background-color: rgb(255, 153, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+.button {
+    padding: 12px 24px;
+    border-radius: 48px;
+    border: none;
+    font-size: 600;
+    background-color: darkviolet;
+    cursor: pointer;
+    color: darkturquoise;
+    transition: all .3s ease;
+}
+
+.button:hover {
+    background-color: deeppink;
+    scale: 1.1;
+    transition: all .3s ease;
+}
+
+.button:active {
+    color: lawngreen;
+    background-color: navy;
+    scale: 1;
+    transition: all .3s ease;
+}
